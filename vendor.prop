@@ -140,6 +140,9 @@ vendor.gralloc.disable_ubwc=0
 # Keystore
 ro.hardware.keystore_desede=true
 
+# Disable Priv-app Permissions for now
+ro.control_privapp_permissions=log
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 vendor.power.pasr.enabled=true
